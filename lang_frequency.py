@@ -21,7 +21,7 @@ def get_clean_words(txt_data):
     return words_not_empty
 
 
-def get_most_frequent_words(text, number_of_words):
+def get_most_frequent_words(text, number_of_words=10):
     words = get_clean_words(text)
     most_frequent_words = []
 
@@ -41,8 +41,9 @@ if __name__ == '__main__':
     filepath = sys.argv[1]
     text_input = load_data(filepath)
 
-    selection_number = 10
-    most_frequent_words = get_most_frequent_words(text_input, selection_number)
+    words_number = int(input("How many frequent words do you want to learn?"))
+
+    most_frequent_words = get_most_frequent_words(text_input, words_number)
 
     print("Top frequent words:")
     for next_word, quantity in most_frequent_words:
