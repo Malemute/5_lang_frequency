@@ -1,6 +1,7 @@
 # Frequency Analysis of Words
 
-[TODO. There will be project description]
+This script finds the most frequent words in a given text, and prints their list.
+Dear Polyglots – foreign language lovers, this may be useful when you start learning a new language. Find a decent book, feed it to this script, and you will get, say, 10, 30 or 100 most useful words to begin with.
 
 # Project Goals
 
