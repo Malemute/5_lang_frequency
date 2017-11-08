@@ -21,7 +21,19 @@ $ python lang_frequency.py <path to file> # possibly requires call of python3 ex
 
 ## Output Example
 
+Here are top 10 from one of the volumes of Encyclopaedia Britanica.
+
     Top frequent words:
+    the - 6016
+    of - 3967
+    and - 2343
+    in - 2133
+    a - 1508
+    to - 1374
+    is - 1134
+    by - 681
+    it - 609
+    as - 575
     
 
 # Project Goals
